@@ -20,5 +20,6 @@ int main()
 
 	Mahasiswa* pMhs = &mhs; //pointer dereference pMhs dengan nilai referensi mhs
 	pMhs->nim = 3; //memberikan nilai nim pada class Mahasiswa untuk objek pMhs
+	pMhs->showNim(); //memanggil prosedur showNim untuk objek pMhs
 	
 }
