@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string> //menambah libarary string
 using namespace std;
 
 class Mahasiswa
