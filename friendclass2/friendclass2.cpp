@@ -17,5 +17,7 @@ void setNama(Mahasiswa& a, string pNama) { //membuat isi dari prosedur setNama()
 
 int main()
 {
-    
+    Mahasiswa joko;
+    setNama(joko, "Kairi Kumar"); //memberi value pada parameter dari prosedur setNama()
+    return 0;
 }
