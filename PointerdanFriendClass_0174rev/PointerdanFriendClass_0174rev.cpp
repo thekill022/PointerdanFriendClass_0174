@@ -11,5 +11,6 @@ public: //memberi akses modifier public pada class Mahasiswa
 
 int main()
 {
-   
+	Mahasiswa mhs{ 1 }; //object mhs diberi nilai awal 1
+	
 }
