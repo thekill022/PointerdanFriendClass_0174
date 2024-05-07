@@ -16,5 +16,6 @@ int main()
 
 	Mahasiswa& refMhs = mhs; //pointer reference refMhs yang bernilai mhs
 	refMhs.nim = 2; //memberikan nilai nim pada class Mahasiswa untuk objek refMhs
+	mhs.showNim(); //memanggil kembali prosedur showNim untuk objek mhs
 	
 }
