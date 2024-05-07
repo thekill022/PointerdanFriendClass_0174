@@ -18,6 +18,10 @@ public:
     friend void manusia::showNilaiPelajar(pelajar& x);
 };
 
+void manusia::showNilaiPelajar(pelajar& x) { //membuat isi dari prosedur showNilauPelajar()
+    cout << x.nilai;
+}
+
 int main()
 {
  
