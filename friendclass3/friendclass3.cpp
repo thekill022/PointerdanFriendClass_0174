@@ -24,5 +24,8 @@ void manusia::showNilaiPelajar(pelajar& x) { //membuat isi dari prosedur showNil
 
 int main()
 {
- 
+    manusia budi;
+    pelajar pbudi;
+    budi.showNilaiPelajar(pbudi); //display nilai budi
+    return 0;
 }
