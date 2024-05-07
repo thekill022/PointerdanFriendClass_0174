@@ -28,6 +28,10 @@ void orang::setNama(string pNama) { //membuat isi prosedur setNama() dari class 
     nama = pNama;
 }
 
+void siswa::setId(int pId) { //membuat isi prosedur setId() dari class siswa
+    id = pId;
+}
+
 int main()
 {
   
