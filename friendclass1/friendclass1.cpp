@@ -8,6 +8,7 @@ private:
 
 public:
     void setNama(string pNama); //deklarasi prosedur setNama dengan paramater dari class orang
+    friend class siswa; //memberi akses friend ke class siswa
 };
 
 int main()
