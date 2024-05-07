@@ -34,5 +34,11 @@ void siswa::setId(int pId) { //membuat isi prosedur setId() dari class siswa
 
 int main()
 {
-  
+    //proses pembuatan objek, memberi nilai dan menampilkan nilai dengan prosedur displayAll()
+    orang joko;
+    joko.setNama("joko Susilo");
+    siswa joko_siswa;
+    joko_siswa.setId(1);
+    joko_siswa.displayAll(joko);
+    return 0;
 }
