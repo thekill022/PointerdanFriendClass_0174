@@ -20,6 +20,10 @@ public:
     void displayAll(orang& a); //deklarasi prosedur displayAll()
 };
 
+void siswa::displayAll(orang& a) { //membuat isi prosedur displayAll() dari class siswa
+    cout << id << endl << a.nama;
+}
+
 int main()
 {
   
