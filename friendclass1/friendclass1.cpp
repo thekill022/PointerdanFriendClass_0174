@@ -24,6 +24,10 @@ void siswa::displayAll(orang& a) { //membuat isi prosedur displayAll() dari clas
     cout << id << endl << a.nama;
 }
 
+void orang::setNama(string pNama) { //membuat isi prosedur setNama() dari class orang
+    nama = pNama;
+}
+
 int main()
 {
   
