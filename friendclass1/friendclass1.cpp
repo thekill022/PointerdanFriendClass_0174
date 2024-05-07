@@ -11,6 +11,14 @@ public:
     friend class siswa; //memberi akses friend ke class siswa
 };
 
+class siswa {
+private:
+    int id;
+
+public:
+    void setId(int pId); //deklarasi prosedur setId
+};
+
 int main()
 {
   
