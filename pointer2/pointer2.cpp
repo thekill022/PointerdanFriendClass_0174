@@ -15,5 +15,6 @@ int main()
 {
 	Mahasiswa* mhs = new Mahasiswa{ 1 }; //memberi nilai pertama menggunakan new    
 	mhs->nim = 2;  // memberi nilai pada variebale nim dari objek mhs
+	mhs->showNim(); //memanggil prosedur showNim dari variabel mhs yang merupakan pointer dereference
 
 }
