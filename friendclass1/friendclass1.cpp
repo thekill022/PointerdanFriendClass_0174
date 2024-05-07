@@ -17,6 +17,7 @@ private:
 
 public:
     void setId(int pId); //deklarasi prosedur setId
+    void displayAll(orang& a); //deklarasi prosedur displayAll()
 };
 
 int main()
