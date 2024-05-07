@@ -12,5 +12,6 @@ public: //memberi akses modifier public pada class Mahasiswa
 int main()
 {
 	Mahasiswa mhs{ 1 }; //object mhs diberi nilai awal 1
+	mhs.showNim(); //memanggil prosedur showNim() untuk objek mhs
 	
 }
