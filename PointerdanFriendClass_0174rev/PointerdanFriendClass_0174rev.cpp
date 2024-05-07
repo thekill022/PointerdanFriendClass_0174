@@ -13,5 +13,7 @@ int main()
 {
 	Mahasiswa mhs{ 1 }; //object mhs diberi nilai awal 1
 	mhs.showNim(); //memanggil prosedur showNim() untuk objek mhs
+
+	Mahasiswa& refMhs = mhs; //pointer reference refMhs yang bernilai mhs
 	
 }
